@@ -24,7 +24,7 @@ library(RColorBrewer)
 library(psych)
 s<-describe(mtcars)
 
-write.csv(s, "C:/Users/y_du10/OneDrive - Fort Hays State University/Desktop/KU Data Science Program/Courses/Data 824/Week 7/mtcars_sta.csv", row.names=TRUE)
+#write.csv(s, "C:/Users/y_du10/OneDrive - Fort Hays State University/Desktop/KU Data Science Program/Courses/Data 824/Week 7/mtcars_sta.csv", row.names=TRUE)
 
 s1<-s%>%select(3:5,8:10)
 
